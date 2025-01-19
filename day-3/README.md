@@ -4,6 +4,29 @@
 
 What is EC2, and why is it important?
 
+'''
+ECC--->ELastic Cloud Compute
+Compute means provide Compute resource like  CPU,RAM,DISK (in general Virtual Server...i.e AWS buy many physical server and install hypervisore and sell each server)
+Cloud means compute service available on public cloud like AWS which can be used by anyone like pay as u use/go model.
+Elastic means these service are scalable like we can increase/decrese RAM/CPU/Disk size as per requirement and use and also we can attach extra service like s3 bucket/cloudwatch etc if required easily. 
+'''
+Elastic Cloud Compute (EC2)
+Compute
+Refers to the provisioning of computational resources like CPU, RAM, and Disk.
+
+EC2 essentially provides virtual servers.
+AWS achieves this by purchasing physical servers, installing hypervisors on them, and selling slices of these servers as virtual machines.
+Cloud
+Indicates that the compute services are available over the public cloud, like AWS.
+
+Accessible globally to anyone with an internet connection.
+Operates on a pay-as-you-use/go model, offering flexibility and cost-efficiency.
+Elastic
+Highlights the scalability of these services:
+
+You can scale up or down resources such as RAM, CPU, or Disk size based on your needs.
+Additional services, such as S3 buckets, CloudWatch, and others, can be easily integrated as required.
+
 ```
 - Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides secure, resizable compute capacity in the cloud.
 - Access reliable, scalable infrastructure on demand. Scale capacity within minutes with SLA commitment of 99.99% availability.
