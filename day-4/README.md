@@ -3,12 +3,16 @@
 Region or AZ are collevtion of IP address.
 VPC is defined by group of subset of IP address inside of a region or AZ.
 VPC = Public subnet + Private Subnet1 + private subnet2 +...
+
+public subnet has access to intenet via internet gateway.
+private subnet doesn't have access to intenet  but what if we need something to update inside private subnet ? we use NAT for this
+
 If user want to access xyz.com from his system which is  hosted inside VPC then  to access VPC, we get access through Public Subnet first and we reach public subnet via intenet gateway.
 public subnet is attached to Elastic Load balancer which is connected to route table which has target group and IP address of VPC
 
-once roting is done to  VPC using route table,security is checked for acees whether particular user hasaccess or not and if have than which access it has which is defined in security group.
+once roting is done to  VPC using route table,security is checked for acees whether particular user has access or not and if have than which access it has which is defined in security group.
 
-To manage security group and routing easily ,we use NACL and NAT.
+To manage security group easily ,we use NACL  
 
 Here's an extended and refined explanation incorporating your points into a cohesive story:
 
